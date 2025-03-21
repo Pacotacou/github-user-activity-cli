@@ -18,7 +18,11 @@ func main() {
 		os.Exit(1)
 	}
 
-	guf.DisplayEvents()
+	err = guf.DisplayEvents()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+		os.Exit(1)
+	}
 
 }
 
