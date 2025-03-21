@@ -3,7 +3,7 @@
 A simple command-line tool written in Go that displays the recent activity of a GitHub user.
 
 ## Project URL
-[text](https://roadmap.sh/projects/github-user-activity)
+[Project URL](https://roadmap.sh/projects/github-user-activity)
 
 ## Features
 
